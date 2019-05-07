@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<header class="container--fluid">
+		<div class="container">
+			<div class="container__row">
+				<div class="container__col-sm-12">
+					<div class="company-name">CHIP</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container content">
+		<div class="container__row">
+			<div class="container__col-sm-12 container__col-md-6 container__col-lg-8">
+				<div class="article">
+					<img src="{{data.teaserImage.url}}" alt="article-image">
+					<h2>{{data.headline}} <small>{{data.subtitle}}</small></h2>
+					<p>{{data.introduction}}</p>
+				</div>
+			</div>
+			<div class="container__col-sm-12 container__col-md-6 container__col-lg-4">
+				<div class="author">
+					<h4>Author Name: {{data.author.firstName}} {{data.author.lastName}}</h4>
+				</div>
+			</div>
+		</div>
+		<div class="container__row">
+			{% for keys,content in data.contents %}
+			<div class="container__col-sm-12 container__col-md-6 container__col-lg-4">
+				<div class="article">
+					{% if keys == 'url' %}
+					<img src="{{content.image.url}}" alt="article-image">
+					{% else %}
+					<img src="https://praxistipps.s3.amazonaws.com/2019-02/Teufel_Real_Blue_2.jpg" alt="article-image">
+					{% endif %}
+					<h2>{{content.headline}}</h2>
+					<p>{{ content.text | raw }}</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<footer class="container--fluid">
+		<div class="container">
+			<div class="container__row">
+				<div class="container__col-sm-12">
+					&copy; CHIP 2019
+				</div>
+			</div>
+		</div>
+	</footer>
+{% endblock %}

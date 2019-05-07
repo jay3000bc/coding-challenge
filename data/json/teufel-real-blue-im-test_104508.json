@@ -1,0 +1,75 @@
+{
+  "id": 14,
+  "type": "test",
+  "urlId": 104508,
+  "slug": "teufel-real-blue-im-test",
+  "headline": "Teufel Real Blue im Test",
+  "subtitle": "Rundum gelungen",
+  "introduction": "Die Teufel Real Blue verzichten auf aktives Noise Cancelling und wollen im Test ausschließlich mit einem sauberen Klang überzeugen. Das gelingt dank der lauten 40-mm-Treiber und den eng anliegenden Ohrmuscheln, die Umgebungsgeräusche passiv abschirmen, sehr gut. Hinzu kommen ein hoher Tragekomfort, eine innovative Touch-Bedienung und angemessene Akkulaufzeit, die den Preis von rund 170 Euro zum Testzeitpunkt rechtfertigen.",
+  "displayDate": {
+    "timestamp": 1550671714
+  },
+  "createdAt": {
+    "timestamp": 1550671747
+  },
+  "updatedAt": {
+    "timestamp": 1553171948
+  },
+  "author": {
+    "id": 6,
+    "slug": "chip_redaktion",
+    "firstName": "CHIP",
+    "lastName": "Redaktion"
+  },
+  "breadcrumb": {
+    "nodeIdPath": "9223,9227,90885",
+    "namePath": "Home:Test & Kaufberatung:Kopfhörer"
+  },
+  "teaserImage": {
+    "height": 731,
+    "width": 1300,
+    "id": 23,
+    "text": "Die Kopfhörer Real Blue von Teufel.",
+    "url": "https://praxistipps.s3.amazonaws.com/2019-02/Teufel_Real_Blue_3.jpg",
+    "source": "Bild: Teufel"
+  },
+  "contents": [{
+    "id": 1,
+    "article": 14,
+    "order": 1,
+    "headline": "Teufel Real Blue im Test: Guter Kopfhörer ohne ANC",
+    "text": "Bei&nbsp;<a href=\"http://www.chip.de/Test_12430122.html?tid1=39726&amp;tid2=0\">Lautsprechern und Soundsystemen</a>&nbsp;spielt der deutsche Hersteller Teufel schon seit Jahren ganz oben mit. Im Bereich der Bluetooth-Kopfhörer ist das nicht anders. Die&nbsp;Teufel Real&nbsp;Blue gefallen im Test mit neutralen Mitten und detailreichen Höhen, die weder zu scharf, noch zu flach ausfallen. Der solide und sehr tiefe Bass dürfte vor allem Rock- und Elektro-Fans freuen. Doch auch Hörer anderer Genres kommen mit dem Klang der Real Blue auf ihre Kosten, müssen zum Teil aber etwas mit einem Equalizer korrigieren. Den insgesamt offenen, sauberen Klang ermöglichen Teufels \"Linear-HD-Treiber\", die auf eine belüftete Rückraumkammer spielen und nur über eine sehr dünne Membran verfügen. Das verhindert unangenehmes Kratzen und Klirren, wie es bei manchen Modellen bei betonten Höhen auftritt.&nbsp;</p><p>Auf ANC verzichtet Teufel allerdings. Die Kopfhörer verfügen also nicht über aktive Noise-Cancelling-Technik, die Umgebungsgeräusche herausfiltert. In der Praxis ist das allerdings kein wirkliches Problem: Da die Teufel Real Blue sehr eng anliegen und gut gepolstert sind, halten sie bereits ohne Musik die meisten Umgebungsgeräusche fern. Hinzu kommt eine geringe Impedanz, die einen lauten Klang ermöglicht. Wer bisher keine Kopfhörer mit ANC hatte oder sowieso meist zuhause oder im Büro Musik hört, wird die Technik nicht vermissen. Für alle anderen bietet Teufel die&nbsp;<a href=\"https://www.amazon.de/Teufel-B%C3%BCgelkopfh%C3%B6rer-schwarz-ohrumschlie%C3%9Fend-20-20000-Hz-rot/dp/B0771W8G4B?tag=testbericht_b-21\">Real Blue NC</a>&nbsp;mit aktiver Geräuschunterdrückung an (Preis: 225 Euro).",
+    "image": {
+      "height": 731,
+      "width": 1300,
+      "id": 24,
+      "text": "Schick, leicht, klangstark - insgesamt hinterlassen die Teufel Real Blue einen positiven Eindruck im Test.",
+      "url": "https://praxistipps.s3.amazonaws.com/2019-02/Teufel_Real_Blue_1.jpg",
+      "source": "Bild: Teufel"
+    }
+  },
+    {
+      "id": 2,
+      "article": 14,
+      "order": 2,
+      "headline": "Per Fingerwisch auf dem Teufel Real Blue zum nächsten Song",
+      "text": "Die Ausstattungswertung fällt im Test vergleichsweise gering aus. Das liegt vor allem am nicht vorhanden ANC; aber auch&nbsp; aptX- und NFC-Support fehlen. Zum Lieferumfang gehören ein Hardcase, in das die zusammengefalteten Kopfhörer passen, sowie ein 1,3 Meter langes Audiokabel für den Fall, dass der Akku unterwegs schlapp macht. Leider verfügt das Kabel nicht über einen abgewinkelten Stecker, was in engen Hosentaschen teilweise stört. Abgerundet wird die Ausstattung durch integrierte Mikrofone, mit denen Sie die Teufel Real Blue als Headset einsetzen können.</p><p>Eher selten in dieser Preisklasse ist die Touch-Bedienung. So müssen Sie bei den Real Blue nicht erst lange nach der richtigen Taste an den Ohrmuscheln suchen, sondern können über Wischgesten Befehle erteilen.&nbsp;Streichen Sie beispielsweise mit einem Finger von oben nach unten auf der rechten Ohrmuschel, ändert sich die Lautstärke. Ein Wisch nach vorne und zurück wechselt den aktuellen Titel, ein Fingertipp startet oder pausiert die Musik. Das ist zwar anfangs etwas gewöhnungsbedürftig, hat aber den Vorteil, dass Sie keine knackenden Geräusche im Ohr hören, die beim Drücken mechanischer Tasten oft auftreten.",
+      "image": {}
+    },
+    {
+      "id": 3,
+      "article": 14,
+      "order": 3,
+      "headline": "Bequemer Sitz, lange Laufzeit im Test",
+      "text": "Zwar liegen die Teufel Real Blue zur Geräuschabschirmung relativ eng an, trotzdem drücken Sie nicht zu fest oder gar störend an den Ohren. Vielmehr bleibt der Sitz dank&nbsp;weicher Polster aus Kunstleder&nbsp;auch nach längerer Zeit bequem. Mit 251 Gramm sind sie zudem angenehm leicht. Die Akkulaufzeit liegt bei knapp 28 Stunden. Das ist zwar kein Spitzenwert, reicht im Alltag aber allemal aus. Die Ladezeit von 2:25 Stunden geht noch in Ordnung.</p><p>Sehr gute Alternativen finden Sie in unserer&nbsp;<a href=\"https://www.chip.de/bestenlisten/Bestenliste-Bluetooth-Kopfh%C3%B6rer--index/detail/id/1407/\">Bluetooth-Kopfhörer-Bestenliste</a>.",
+      "image": {
+        "height": 480,
+        "width": 853,
+        "id": 25,
+        "text": "Wichtigster Bestandteil der Teufel Real Blue sind die starken 40-mm-Treiber hinter der dünnen Membran.",
+        "url": "https://praxistipps.s3.amazonaws.com/2019-02/Teufel_Real_Blue_2.jpg",
+        "source": "Bild: Teufel"
+      }
+    }
+  ]
+}
