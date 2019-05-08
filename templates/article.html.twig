@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-	<header class="container--fluid">
+	<header class="container--fluid header--sticky">
 		<div class="container">
 			<div class="container__row">
 				<div class="container__col-sm-12">
@@ -10,7 +10,7 @@
 			</div>
 		</div>
 	</header>
-	<div class="container content">
+	<main class="container content">
 		<div class="container__row">
 			<div class="container__col-sm-12 container__col-md-6 container__col-lg-8">
 				<div class="article">
@@ -40,7 +40,7 @@
 			</div>
 			{% endfor %}
 		</div>
-	</div>
+	</main>
 	<footer class="container--fluid">
 		<div class="container">
 			<div class="container__row">

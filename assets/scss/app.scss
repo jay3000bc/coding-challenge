@@ -1,9 +1,12 @@
+// grid system braking points
 $grid__bp-sm: 576;
 $grid__bp-md: 660;
 $grid__bp-lg: 1000;
 $grid__cols: 12;
 
 $map-grid-props: ('-sm': $grid__bp-sm, '-md': $grid__bp-md, '-lg': $grid__bp-lg);
+
+// media query for the breaking points
 
 @mixin create-mq($breakpoint) {
 	@if($breakpoint == 0) {
@@ -15,6 +18,8 @@ $map-grid-props: ('-sm': $grid__bp-sm, '-md': $grid__bp-md, '-lg': $grid__bp-lg)
 	}
 }
 
+// looping for the different braking point modifiers e.g sm, md, lg  
+
 @mixin create-col-classes($modifier, $grid-cols, $breakpoint) {
 	@include create-mq($breakpoint) {
 		@for $i from 1 through $grid-cols {
@@ -25,6 +30,7 @@ $map-grid-props: ('-sm': $grid__bp-sm, '-md': $grid__bp-md, '-lg': $grid__bp-lg)
 	}
 }
 
+// start article page styling
 .container {
 	max-width: $grid__bp-lg * 1px;
 	margin: 0 auto;
@@ -41,21 +47,23 @@ $map-grid-props: ('-sm': $grid__bp-sm, '-md': $grid__bp-md, '-lg': $grid__bp-lg)
 		@include create-col-classes($modifier, $grid__cols, $breakpoint);
 	}
 }
+
 body {
 	margin:0;
 	padding: 0;
 	overflow-x: hidden;
 }
-header, footer {
+header {
 	padding: 1rem;
+	width: 100%;
 	background-color: #ff6f69;
 }
-header {
-	width: 100%;
-    position: fixed;
+.header--sticky {
+	position: fixed;
     top: 0px;
-  	display: block;
-  	transition: top 0.3s ease-out;
+  	-webkit-transition: top 0.5s ease;
+    -o-transition: top 0.5s ease;
+    transition: top 0.5s ease;
 }
 .content {
 	margin-top: 80px;
@@ -90,5 +98,7 @@ header {
 	background-color: lightgray; 
 }
 footer {
+	padding: 1rem;
 	background-color: lightgray;
 }
+// end article page styling
